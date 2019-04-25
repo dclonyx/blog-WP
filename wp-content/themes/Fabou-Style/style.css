@@ -1,0 +1,162 @@
+/*
+Theme Name: Fabou-Style
+Author: Fabou
+Description: Template WordPress d’exemple pour un article de Fabou Style
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: #f9f9f9;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: Helvetica;
+}
+.my-logo,
+footer {
+    width: 100%;
+    padding-left: 1%;
+    margin-bottom: 10px;
+    background-color: #6fd1ff;
+    border: 1px solid #067af7;
+    border-radius: 5px;
+}
+body > header > h1 > a {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-area {
+    display: inline-block;
+}
+
+.content-thin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 1%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.primary-sidebar {
+    width: 25%;
+    padding: 1%;
+    vertical-align: top;
+    background-color: #6fd1ff;
+    display: none;
+    border-radius: 5px;
+    border: 1px solid #067af7;
+}
+/* articel accueil */
+.article-full {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    background: #6fd1ff;
+    border: 1px solid #067af7;
+}
+/* article blog */
+.article-loop {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 0 1%;
+    background: #6fd1ff;
+    border: 1px solid #067af7;
+    margin-bottom: 1%;
+}
+
+#menu-nav {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+#menu-nav > li {
+    list-style:none;
+    padding: 0 10px;
+}
+/* form et newsletter */
+.mailpoet_form_widget{
+    margin-top: 20px;
+}
+
+#mailpoet_form_1 {
+    width: 100%;
+}
+
+.wpcf7-form {
+    text-align: center;
+}
+
+/* width a 100% sur les input */
+#mailpoet_form_1 .mailpoet_paragraph .mailpoet_text, .content-area .article-full .wpmem_msg {
+    width: 100%;
+    padding: 0;
+}
+
+input{
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+#searchform input{
+    margin-top: 5px;
+}
+
+/* sidebar */
+.menu-nav-container {
+    border-radius: 5px;
+    background: #6fd1ff;
+    border: 1px solid #067af7;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 783px) {
+    .primary-sidebar {
+        display: inline;
+    }
+    .content-thin {
+        width: 75%;
+    }
+    .wpcf7-form {
+        text-align: left;
+    }
+    #menu-nav {
+        justify-content: start;
+        padding: 20px;
+    }
+    .article-loop {
+        width: 49%;
+    }
+}
